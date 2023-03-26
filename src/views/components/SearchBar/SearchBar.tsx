@@ -1,5 +1,4 @@
 import React from "react";
-
 import dayjs, { Dayjs } from "dayjs";
 import { DemoContainer } from "@mui/x-date-pickers/internals/demo";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
@@ -11,7 +10,6 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
-
 import styled from "styled-components";
 
 export default function SearchBar() {

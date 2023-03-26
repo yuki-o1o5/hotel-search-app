@@ -4,7 +4,7 @@ import Footer from "./views/components/Footer/Footer";
 import Nav from "./views/components/Nav/Nav";
 import Details from "./views/pages/Details";
 import HomePage from "./views/pages/HomePage";
-import SearchPage from "./views/pages/SearchPage";
+import SearchPage from "./views/pages/FrightPage";
 
 function App() {
   return (

@@ -3,12 +3,11 @@ import styled from "styled-components";
 export default function Nav() {
   return (
     <SContainer>
-      <div>Hotel Search app</div>
+      <Sh1>Hotel Search app</Sh1>
 
       <div>
         <Sul>
           <Sli>Home</Sli>
-          <Sli>My Favolite</Sli>
         </Sul>
       </div>
     </SContainer>
@@ -16,10 +15,12 @@ export default function Nav() {
 }
 
 const SContainer = styled.div`
-  background-color: #b3f0fb;
+  background-color: #15273b;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 3rem;
+  color: #d96644;
 `;
 
 const Sul = styled.ul`
@@ -29,5 +30,9 @@ const Sul = styled.ul`
 `;
 
 const Sli = styled.li`
+  padding: 10px;
+`;
+
+const Sh1 = styled.h1`
   padding: 10px;
 `;
